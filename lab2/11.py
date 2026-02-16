@@ -1,3 +1,4 @@
+#reverse elements l r replace
 n, l, r = map(int, input().split())
 arr = list(map(int, input().split()))
 l -= 1

@@ -1,3 +1,4 @@
+#attendance
 n=int(input())
 name=set()
 for i in range(n):

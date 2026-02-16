@@ -1,3 +1,4 @@
+#max
 n=int(input())
 num=input().split()
 max=int(num[0])

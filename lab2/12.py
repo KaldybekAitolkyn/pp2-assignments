@@ -1,3 +1,4 @@
+#square
 n=int(input())
 num=input().split()
 sum=0

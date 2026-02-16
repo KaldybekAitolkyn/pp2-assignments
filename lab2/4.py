@@ -1,3 +1,4 @@
+#positive numbers
 n=int(input())
 num=input().split()
 sum=0

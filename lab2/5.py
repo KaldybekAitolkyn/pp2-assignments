@@ -1,3 +1,4 @@
+#is it power of two
 n = int(input())
 
 while n>1:

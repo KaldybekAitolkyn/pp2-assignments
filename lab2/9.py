@@ -1,3 +1,4 @@
+#max to min
 n=int(input())
 num=list(map(int,input().split()))
 max=int(num[0])
