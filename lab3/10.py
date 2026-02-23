@@ -1,17 +1,17 @@
 class Person:
-    def init(self,name):
+    def __init__(self, name):
         self.name = name
-        
+
 class Student(Person):
-    # name по дефолту бар
-    
-    def init(self, name, gpa):
-        super().init(name)
+    def __init__(self, name, gpa):
+        super().__init__(name)
         self.gpa = gpa
+
     def display(self):
         print(f"Student: {self.name}, GPA: {self.gpa}")
-        
-name , gpa = map(str,input().split())
+
+name, gpa = input().split()
 gpa = float(gpa)
+
 student = Student(name, gpa)
 student.display()
